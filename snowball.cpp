@@ -357,6 +357,7 @@ void CollisionSnowBall(D3DXVECTOR3 pos, float Length)
 			{
 				Space = (SNOWBALL_RADIUS * g_aSnowBall[nCntSnowBall].scale.x + Length * 0.5f) - Space;
 				D3DXVECTOR3 Hitvec = g_aSnowBall[nCntSnowBall].pos - pos;
+				Hitvec.y = 0.0f;
 				D3DXVec3Normalize(&Hitvec, &Hitvec);
 				g_aSnowBall[nCntSnowBall].move += Hitvec * Space;
 				g_aSnowBall[nCntSnowBall].scale.x += Space * 0.01f;

@@ -21,8 +21,7 @@
 #include"player.h"
 #include"input.h"
 #include"pause.h"
-
-#define IDI_ICON1 (WORD)"IDI_ICON1"
+#include"resource.h"
 
 LPDIRECT3D9 g_pD3D = NULL;//ダイレクトXオブジェクトのグローバルポインタを宣言
 LPDIRECT3DDEVICE9 g_pD3DDevice = NULL;//ダイレクトXデバイスのグローバルポインタを宣言

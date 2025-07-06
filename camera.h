@@ -10,7 +10,7 @@
 
 #include"main.h"
 
-#define CAMERA_NUM (4)
+#define CAMERA_NUM (1)
 #define CAMERA_VIEW_SPEED (0.01f)//回転スピード
 #define CAMERA_ROT_SPEED (0.05f)//回転スピード
 #define CAMERA_SPEED (2.0f)//移動スピード
