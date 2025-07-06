@@ -24,7 +24,7 @@
     <ProjectGuid>{6d12f15c-b092-4af4-9b69-8baf08711171}</ProjectGuid>
     <RootNamespace>My3DBase</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>White</ProjectName>
+    <ProjectName>3D Master</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
